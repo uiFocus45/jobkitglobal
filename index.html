@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JobKit Global · Career toolkit</title>
-<meta name="description" content="Resume templates, interview guides and a new career guide every day. In English and French.">
+<title>Free ATS Resume Templates &amp; Job Guides | JobKit Global</title>
+<meta name="description" content="ATS-friendly resume (CV) templates, cover letters and interview guides that get you callbacks. A new career guide every day, in English and French.">
 <meta property="og:title" content="JobKit Global · Land your next job, faster">
 <meta property="og:description" content="Resume templates, interview guides and a new career guide every day. In English and French.">
 <meta property="og:image" content="assets/kit_en.jpg">
@@ -823,7 +823,7 @@ footer a:hover{color:#fff}
     var ringMat = new THREE.MeshBasicMaterial({color: 0xD4A63A, transparent: true, opacity: .9});
     var ring = new THREE.Mesh(new THREE.TorusGeometry(1.5, .025, 12, 120), ringMat); ring.rotation.x = Math.PI / 2; ring.position.y = .08;
     var halo = new THREE.Mesh(new THREE.TorusGeometry(1.85, .012, 12, 120), new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true, opacity: .25})); halo.rotation.x = Math.PI / 2;
-    var pedestal3d = new THREE.Group(); pedestal3d.add(disc, ring, halo); pedestal3d.position.set(0, -2.15, .2); pedestal3d.rotation.x = .22; group.add(pedestal3d);
+    var pedestal3d = new THREE.Group(); pedestal3d.add(disc, ring, halo); pedestal3d.position.set(0, -1.82, .2); pedestal3d.rotation.x = .22; group.add(pedestal3d);
     var n = 260, pos = new Float32Array(n * 3);
     for (var k = 0; k < n; k++) { pos[k*3] = (Math.random() - .5) * 22; pos[k*3+1] = (Math.random() - .5) * 12; pos[k*3+2] = (Math.random() - .5) * 8 - 3; }
     var pg = new THREE.BufferGeometry(); pg.setAttribute('position', new THREE.BufferAttribute(pos, 3));
